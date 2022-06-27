@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page 1 | TailwindCSS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style type="text/tailwindcss">
+      @layer components {
+        .wrap > div {
+          @apply flex-1 p-2 h-[450px] bg-transparent border rounded-sm border-slate-600 shadow-md m-2 transition duration-200;
+        }
+      }
+
+      .wrap > div:hover {
+        @apply bg-sky-200 cursor-pointer -translate-y-2;
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      class="w-[80%] mx-auto mt-7 flex gap-1 overflow-hidden rounded-lg wrap"
+    >
+      <div class="bg-pink-200 flex-1">
+        <div>
+          <img src="./img/1.jpg" alt="cat image" class="" />
+        </div>
+        <div class="">
+          <h2>the cat pushy</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis ex
+            odit impedit eveniet porro atque corrupti corporis, assumenda
+            laborum voluptatem?
+          </p>
+          <button>adopt the cat</button>
+        </div>
+      </div>
+      <div class="bg-pink-200 flex-1">
+        <div>
+          <img src="./img/2.jpg" alt="cat image" class="" />
+        </div>
+        <div class="">
+          <h2>the cat pushy</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis ex
+            odit impedit eveniet porro atque corrupti corporis, assumenda
+            laborum voluptatem?
+          </p>
+          <button>adopt the cat</button>
+        </div>
+      </div>
+      <div class="bg-pink-200 flex-1">
+        <div>
+          <img src="./img/3.jpg" alt="cat image" class="" />
+        </div>
+        <div class="">
+          <h2>the cat pushy</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis ex
+            odit impedit eveniet porro atque corrupti corporis, assumenda
+            laborum voluptatem?
+          </p>
+          <button>adopt the cat</button>
+        </div>
+      </div>
+      <div class="bg-pink-200 flex-1">
+        <div>
+          <img src="./img/4.jpg" alt="cat image" class="" />
+        </div>
+        <div class="">
+          <h2>the cat pushy</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis ex
+            odit impedit eveniet porro atque corrupti corporis, assumenda
+            laborum voluptatem?
+          </p>
+          <button>adopt the cat</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
